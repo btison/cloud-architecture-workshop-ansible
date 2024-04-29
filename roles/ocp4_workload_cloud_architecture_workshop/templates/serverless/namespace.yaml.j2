@@ -1,7 +1,0 @@
-{% for __namespace in r_serverless_namespaces %}
----
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: '{{ __namespace.name }}'
-{% endfor %}

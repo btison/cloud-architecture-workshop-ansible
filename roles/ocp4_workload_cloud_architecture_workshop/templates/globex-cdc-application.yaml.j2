@@ -34,7 +34,7 @@ spec:
       values: |
 
         debezium:
-          deploy: true
+          deploy: false
           connectors:
             globex:
               kafkaConnect: kafka-connect
@@ -59,7 +59,7 @@ spec:
           deploy: true
 
         kafka:
-          namespace: globex-mw-{{ __user }}
+          namespace: {{ ocp4_workload_cloud_architecture_workshop_namespace_prefix }}-{{ __user }}
 
         cashback-db:
           persistence:
