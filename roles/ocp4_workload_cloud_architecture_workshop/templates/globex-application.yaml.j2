@@ -82,6 +82,10 @@ spec:
             logoutUri: https://globex-web-{{ r_cloud_architecture_workshop_globex_namespace | replace("user",__user) }}.{{ r_openshift_subdomain }}/home
             logLevel: "2"
 
+        globex-store-app:
+          image:
+            tag: 1b9df86
+
         streams-console:
           namespace: *namespace
           subdomain: {{ r_openshift_subdomain }}
