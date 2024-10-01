@@ -45,6 +45,19 @@ spec:
         kafka-topics:
           kafka:
             namespace: *namespace
+            topics:
+              - name: globex.updates.public.customer
+                partitions: 1
+                retention: -1
+              - name: globex.updates.public.orders
+                partitions: 1
+                retention: -1
+              - name: globex.updates.public.line_item
+                partitions: 1
+                retention: -1
+              - name: globex.order-aggregated
+                partitions: 1
+                retention: -1
 
         kafdrop:
           kafka:
