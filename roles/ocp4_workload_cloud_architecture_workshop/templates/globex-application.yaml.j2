@@ -69,7 +69,11 @@ spec:
           image:
             tag: 43e87ee
           db:
-            deploy: false      
+            deploy: false
+          service:
+            external:
+              enabled: true
+              name: {{ ocp4_workload_cloud_architecture_workshop_globex_external_service_name }}
 
         globex-web:
           sso:
