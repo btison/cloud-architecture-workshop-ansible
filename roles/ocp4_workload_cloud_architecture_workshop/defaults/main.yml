@@ -13,44 +13,6 @@ ocp4_workload_cloud_architecture_workshop_user_count: "{{ ocp4_workload_authenti
 ocp4_workload_cloud_architecture_workshop_user_prefix: "{{ ocp4_workload_authentication_htpasswd_user_base }}"
 
 # ------------------------------------------------
-# AMQ Streams Operator
-# ------------------------------------------------
-
-ocp4_workload_cloud_architecture_workshop_amq_streams_operator_channel: ""
-ocp4_workload_cloud_architecture_workshop_amq_streams_operator_automatic_install_plan_approval: true
-ocp4_workload_cloud_architecture_workshop_amq_streams_operator_starting_csv: ""
-ocp4_workload_cloud_architecture_workshop_amq_streams_operator_name: amq-streams
-ocp4_workload_cloud_architecture_workshop_amq_streams_operator_namespace: openshift-operators
-ocp4_workload_cloud_architecture_workshop_amq_streams_operator_catalog: redhat-operators
-ocp4_workload_cloud_architecture_workshop_amq_streams_operator_csv_prefix: amqstreams
-ocp4_workload_cloud_architecture_workshop_amq_streams_operator_wait_for_deploy: true
-ocp4_workload_cloud_architecture_workshop_amq_streams_operator_use_catalog_snapshot: false
-ocp4_workload_cloud_architecture_workshop_amq_streams_operator_catalogsource_name: ""
-ocp4_workload_cloud_architecture_workshop_amq_streams_operator_catalogsource_namespace: openshift-operators
-ocp4_workload_cloud_architecture_workshop_amq_streams_operator_catalog_snapshot_image: ""
-ocp4_workload_cloud_architecture_workshop_amq_streams_operator_catalog_snapshot_image_tag: ""
-ocp4_workload_cloud_architecture_workshop_amq_streams_operator_limits_memory: 768Mi
-ocp4_workload_cloud_architecture_workshop_amq_streams_operator_requests_memory: 768Mi
-
-# ------------------------------------------------
-# OpenShift Pipelines Operator
-# ------------------------------------------------
-
-ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_channel: ""
-ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_automatic_install_plan_approval: true
-ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_starting_csv: ""
-ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_name: openshift-pipelines-operator-rh
-ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_namespace: openshift-operators
-ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_catalog: redhat-operators
-ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_csv_prefix: openshift-pipelines-operator-rh
-ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_wait_for_deploy: true
-ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_use_catalog_snapshot: false
-ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_catalogsource_name: ""
-ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_catalogsource_namespace: openshift-operators
-ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_catalog_snapshot_image: ""
-ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_catalog_snapshot_image_tag: ""
-
-# ------------------------------------------------
 # OpenShift Gitops
 # ------------------------------------------------
 
@@ -209,6 +171,62 @@ ocp4_workload_cloud_architecture_workshop_openshift_gitops_resource_customizatio
 # See https://github.com/redhat-cop/agnosticd/blob/development/docs/Operator_Catalog_Snapshots.adoc
 # for instructions on how to set up catalog snapshot images
 
+# ------------------------------------------------
+# OpenShift Pipelines Operator
+# ------------------------------------------------
+
+ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_channel: ""
+ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_automatic_install_plan_approval: true
+ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_starting_csv: ""
+ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_name: openshift-pipelines-operator-rh
+ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_namespace: openshift-operators
+ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_catalog: redhat-operators
+ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_csv_prefix: openshift-pipelines-operator-rh
+ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_wait_for_deploy: true
+ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_use_catalog_snapshot: false
+ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_catalogsource_name: ""
+ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_catalogsource_namespace: openshift-operators
+ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_catalog_snapshot_image: ""
+ocp4_workload_cloud_architecture_workshop_openshift_pipelines_operator_catalog_snapshot_image_tag: ""
+
+# ------------------------------------------------
+# AMQ Streams Operator
+# ------------------------------------------------
+
+ocp4_workload_cloud_architecture_workshop_amq_streams_operator_channel: ""
+ocp4_workload_cloud_architecture_workshop_amq_streams_operator_automatic_install_plan_approval: true
+ocp4_workload_cloud_architecture_workshop_amq_streams_operator_starting_csv: ""
+ocp4_workload_cloud_architecture_workshop_amq_streams_operator_name: amq-streams
+ocp4_workload_cloud_architecture_workshop_amq_streams_operator_namespace: openshift-operators
+ocp4_workload_cloud_architecture_workshop_amq_streams_operator_catalog: redhat-operators
+ocp4_workload_cloud_architecture_workshop_amq_streams_operator_csv_prefix: amqstreams
+ocp4_workload_cloud_architecture_workshop_amq_streams_operator_wait_for_deploy: true
+ocp4_workload_cloud_architecture_workshop_amq_streams_operator_use_catalog_snapshot: false
+ocp4_workload_cloud_architecture_workshop_amq_streams_operator_catalogsource_name: ""
+ocp4_workload_cloud_architecture_workshop_amq_streams_operator_catalogsource_namespace: openshift-operators
+ocp4_workload_cloud_architecture_workshop_amq_streams_operator_catalog_snapshot_image: ""
+ocp4_workload_cloud_architecture_workshop_amq_streams_operator_catalog_snapshot_image_tag: ""
+ocp4_workload_cloud_architecture_workshop_amq_streams_operator_limits_memory: 768Mi
+ocp4_workload_cloud_architecture_workshop_amq_streams_operator_requests_memory: 768Mi
+
+
+# ------------------------------------------------
+# AMQ Streams Console Operator
+# ------------------------------------------------
+
+ocp4_workload_cloud_architecture_workshop_amq_streams_console_operator_channel: ""
+ocp4_workload_cloud_architecture_workshop_amq_streams_console_operator_automatic_install_plan_approval: true
+ocp4_workload_cloud_architecture_workshop_amq_streams_console_operator_starting_csv: ""
+ocp4_workload_cloud_architecture_workshop_amq_streams_console_operator_name: amq-streams-console
+ocp4_workload_cloud_architecture_workshop_amq_streams_console_operator_namespace: openshift-operators
+ocp4_workload_cloud_architecture_workshop_amq_streams_console_operator_catalog: redhat-operators
+ocp4_workload_cloud_architecture_workshop_amq_streams_console_operator_csv_prefix: amq-streams-console
+ocp4_workload_cloud_architecture_workshop_amq_streams_console_operator_wait_for_deploy: true
+ocp4_workload_cloud_architecture_workshop_amq_streams_console_operator_use_catalog_snapshot: false
+ocp4_workload_cloud_architecture_workshop_amq_streams_console_operator_catalogsource_name: ""
+ocp4_workload_cloud_architecture_workshop_amq_streams_console_operator_catalogsource_namespace: openshift-operators
+ocp4_workload_cloud_architecture_workshop_amq_streams_console_operator_catalog_snapshot_image: ""
+ocp4_workload_cloud_architecture_workshop_amq_streams_console_operator_catalog_snapshot_image_tag: ""
 
 # ------------------------------------------------
 # CamelK Operator
