@@ -396,7 +396,7 @@ ocp4_workload_cloud_architecture_workshop_apicurio_operator_catalog_snapshot_ima
 # Serverless Operator
 # ------------------------------------------------
 
-ocp4_workload_cloud_architecture_workshop_serverless_operator_channel: ""
+ocp4_workload_cloud_architecture_workshop_serverless_operator_channel: "stable"
 ocp4_workload_cloud_architecture_workshop_serverless_operator_automatic_install_plan_approval: true
 ocp4_workload_cloud_architecture_workshop_serverless_operator_starting_csv: ""
 ocp4_workload_cloud_architecture_workshop_serverless_operator_name: serverless-operator
