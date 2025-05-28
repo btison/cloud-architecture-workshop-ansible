@@ -377,7 +377,7 @@ ocp4_workload_cloud_architecture_workshop_service_registry_operator_catalog_snap
 # Apicurio Designer Operator
 # ------------------------------------------------
 
-ocp4_workload_cloud_architecture_workshop_apicurio_operator_channel: "fuse-apicurito-7.12.x"
+ocp4_workload_cloud_architecture_workshop_apicurio_operator_channel: "fuse-apicurito-7.13.x"
 ocp4_workload_cloud_architecture_workshop_apicurio_operator_automatic_install_plan_approval: true
 ocp4_workload_cloud_architecture_workshop_apicurio_operator_starting_csv: ""
 ocp4_workload_cloud_architecture_workshop_apicurio_operator_name: fuse-apicurito
