@@ -359,13 +359,13 @@ ocp4_workload_cloud_architecture_workshop_webterminal_operator_catalog_snapshot_
 # Service Registry Operator
 # ------------------------------------------------
 
-ocp4_workload_cloud_architecture_workshop_service_registry_operator_channel: "2.x"
+ocp4_workload_cloud_architecture_workshop_service_registry_operator_channel: "3.x"
 ocp4_workload_cloud_architecture_workshop_service_registry_operator_automatic_install_plan_approval: true
 ocp4_workload_cloud_architecture_workshop_service_registry_operator_starting_csv: ""
-ocp4_workload_cloud_architecture_workshop_service_registry_operator_name: service-registry-operator
+ocp4_workload_cloud_architecture_workshop_service_registry_operator_name: apicurio-registry-3
 ocp4_workload_cloud_architecture_workshop_service_registry_operator_namespace: openshift-operators
 ocp4_workload_cloud_architecture_workshop_service_registry_operator_catalog: redhat-operators
-ocp4_workload_cloud_architecture_workshop_service_registry_operator_csv_prefix: service-registry-operator
+ocp4_workload_cloud_architecture_workshop_service_registry_operator_csv_prefix: apicurio-registry-3
 ocp4_workload_cloud_architecture_workshop_service_registry_operator_wait_for_deploy: true
 ocp4_workload_cloud_architecture_workshop_service_registry_operator_use_catalog_snapshot: false
 ocp4_workload_cloud_architecture_workshop_service_registry_operator_catalogsource_name: ""
